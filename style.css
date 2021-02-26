@@ -1,0 +1,80 @@
+body {
+    background-color: lightgrey;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: grey;
+}
+
+.buy {
+    background-color: white;
+    border: 1px solid #a7a9ab; 
+}
+
+.buy:hover {
+    background-color: #7894c2;
+    cursor: pointer;
+}
+
+.learn {
+    background-color:#c1c3c7;
+    border-right: 1px solid #a7a9ab;
+    border-left: 1px solid #a7a9ab;
+}
+
+.learn:hover {
+    background-color: #7894c2;
+    cursor: pointer;
+}
+
+.write {
+    background-color: white;
+    border: 1px solid #a7a9ab;
+}
+
+.write:hover {
+    background-color: #7894c2;
+    cursor: pointer;
+}
+
+.be {
+    background-color:#c1c3c7;
+    border-right: 1px solid #a7a9ab;
+    border-left: 1px solid #a7a9ab;
+    border-bottom: 1px solid #a7a9ab;
+}
+
+.be:hover {
+    background-color: #7894c2;
+    cursor: pointer;
+}
+
+.yellow {
+    background-color: yellow;
+    padding: 30px;
+
+}
+
+button {
+    background-color: green;
+    border: 1px grey solid;
+    border-radius: 3px;
+    padding: 5px;
+    min-width: 122px;
+    color: white;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    background-color: red;
+    float: right;
+    padding: 1px 5px;
+
+}
+
+a:hover {
+    background-color: pink;
+    text-decoration: underline;
+}
